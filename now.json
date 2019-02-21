@@ -1,4 +1,6 @@
 {
   "version": 2,
-  "alias": "github-e2e-production.now.sh"
+  "builds": [
+    { "src": "noop.js", "use": "@now/node" }
+  ]
 }
