@@ -1,6 +1,6 @@
 {
   "version": 2,
   "builds": [
-    { "src": "noop.js", "use": "@now/node" }
+  	{ "src": "package.json", "use": "@now/static-build" }
   ]
 }
