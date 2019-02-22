@@ -1,4 +1,7 @@
 {
   "version": 2,
-  "alias": "github-e2e-production.now.sh"
+  "alias": "github-e2e-production.now.sh",
+  "env": {
+    "FOO": "@foo"
+  }
 }
